@@ -1,0 +1,33 @@
+{
+  "name": "tutor-timings",
+  "version": "1.0.0",
+  "repository": {
+    "url": "git+https://github.com/cespitiaalvarez/instiltTesting.git"
+  },
+  "engines": {
+    "node": "18.x"
+  },
+  "homepage": ".",
+  "main": "api/index.js",
+  "private": true,
+  "dependencies": {
+    "@notionhq/client": "^2.2.12",
+    "cors": "^2.8.5",
+    "dangerous-html": "0.1.13",
+    "dotenv": "^16.3.1",
+    "dotenv-webpack": "^8.0.1",
+    "express": "^4.18.2",
+    "html-webpack-plugin": "^5.5.3",
+    "parcel-bundler": "^1.6.1"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.11",
+    "@babel/preset-env": "^7.22.10",
+    "@notionhq/client": "^2.2.12",
+    "babel-loader": "^9.1.3",
+    "gh-pages": "^6.0.0"
+  }
+}
